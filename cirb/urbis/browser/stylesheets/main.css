@@ -1,0 +1,4 @@
+/* Stylesheet for the 'UrbIS Map' Plone theme */
+
+#map_panel {float: left; height:502px; width:670px; border: solid #aaaaaa 1px; padding: 0px; margin: 5px 5px 5px 5px;}
+#map {height:100%;}

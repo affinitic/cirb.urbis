@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="cirb.urbis">
+<tal:js metal:fill-slot="javascript_head_slot"> 
+    <!--script type="text/javascript" src="jquery-1.6.2.min.js"></script-->
+    <script type="text/javascript" tal:attributes="src string:${portal_url}/urbis.js"></script>
+</tal:js>
+<body>
+    <div metal:fill-slot="main" tal:define="data view/urbis">        
+        <tal:block tal:condition="not: data/error" >
+            <div id="map_panel"><div id="map"></div></div>
+        </tal:block>
+        <tal:block tal:condition="data/error" >
+            <div class="error" tal:content="data/msg_error">msg_error</div>
+        </tal:block>
+    </div>
+</body>
+</html>

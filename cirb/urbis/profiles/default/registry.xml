@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<registry>
+    <record name="cirb.urbis.urbis_url">
+        <field type="plone.registry.field.URI">
+            <title>Urbis URL</title>
+            <description>Url used to load UrbIS© Map</description>
+        </field>
+        <value>http://192.168.13.45:8080/geoserver/gwc/service/wms</value>
+    </record>
+</registry>
