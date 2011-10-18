@@ -1,5 +1,5 @@
 from zope.i18nmessageid import MessageFactory
-from cirb.castemplate import config
+from cirb.urbis import config
 
 from Products.Archetypes import atapi
 from Products.CMFCore import utils
