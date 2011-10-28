@@ -5,6 +5,13 @@
             <title>Urbis URL</title>
             <description>Url used to load UrbIS© Map</description>
         </field>
-        <value>http://192.168.13.45:8080/geoserver/gwc/service/wms</value>
+        <value>http://geoserver.gis.irisnetlab.be/wms</value>
+    </record>
+    <record name="cirb.urbis.urbis_cache_url">
+        <field type="plone.registry.field.URI">
+            <title>Urbis cache URL</title>
+            <description>Url used to load UrbIS© Map</description>
+        </field>
+        <value>http://geoserver.gis.irisnetlab.be/gwc/service/wms</value>
     </record>
 </registry>
