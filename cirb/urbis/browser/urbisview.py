@@ -17,8 +17,8 @@ class IUrbisView(Interface):
     Cas view interface
     """
 
-    def test():
-        """ test method"""
+    def urbis():
+        """ urbis method"""
 
 
 class UrbisView(BrowserView):
