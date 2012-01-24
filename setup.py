@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1beta'
+version = '1.1'
 
 setup(name='cirb.urbis',
       version=version,
