@@ -4,7 +4,8 @@ Changelog
 1.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Use new GIS servers URLs
+  [laulaz]
 
 
 1.2 (2012-02-07)
